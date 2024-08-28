@@ -1,6 +1,6 @@
 <template>
-	  
 	  <h1>Task List</h1>
+
 	  <ul>
 		  	<li>First task</li>
 		  	<li>Second Task</li>

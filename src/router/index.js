@@ -8,7 +8,7 @@ import { createWebHistory, createRouter } from "vue-router";
   {
     path: "/home",
     component: () => import("../components/TaskView.vue")
-  },
+  }
 
 ]
 
