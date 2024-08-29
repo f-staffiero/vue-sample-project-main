@@ -1,4 +1,5 @@
 import { createWebHistory, createRouter } from "vue-router";
+import TaskView from "../components/TaskView.vue";
 
   const routes =  [
     {

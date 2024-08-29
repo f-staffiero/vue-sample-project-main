@@ -37,8 +37,8 @@ export default {
         //stores true to the set_authentication and username to the set_username 
         this.$store.commit(`auth/${SET_AUTHENTICATION}`, true);
         this.$store.commit(`auth/${SET_USERNAME}`, this.input.username);
-        this.output = "Authentication complete."
-        this.$router.go('/home')
+        //this.output = "Authentication complete."
+        this.$router.push('/home')
       } else {
         this.$store.commit(`auth/${SET_AUTHENTICATION}`, false);
         this.output = "Username and password can not be empty"
